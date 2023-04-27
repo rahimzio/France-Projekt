@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/css/style.css">
+<script src="js/java.js"></script>
+
+<title>Französisch für dummis</title>
+</head>
+<body onload="display()">
+
+    <div class="header">
+
+        <div>
+            <img class="flagge" src="img/flagge.jpeg">
+        </div>
+    
+        <span class="ffd">Französisch für dummis</span>
+    
+        <div class="links">
+            <a href="/index.html">Homepage|</a>
+            <a href="#übungen">Übungen|</a>
+            <a href="#grammatik">grammatik|</a>
+            <a href="#fakten">über paris</a>
+        </div>
+        <div>
+           
+        
+            <div class="menu-button-ersatz" style="opacity: 0; z-index: 2;" onclick="swipe() ,opacity()"></div>
+            <div class="menu-button-ersatz">
+                <div class="streifen" style="top: 17px;"></div>
+                <div class="streifen" style="top: 25px;"></div>
+                <div class="streifen" style="top: 36px;"></div>
+            </div>
+            <img class="menu-button" src="/icons/menu-offnen.png">
+    
+        <div class="button-div">
+            <img class="menu-button" onclick="swipe() ,opacity()" src="/icons/menu-offnen.png">
+            <div class="menu-button-ersatz" onclick="swipe() ,opacity()">
+                <div class="streifen"></div>
+                <div class="streifen"></div>
+                <div class="streifen"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="menu-links none" id="menu-links">
+        <a href="/index.html" onclick="removemenu()">Homepage</a>
+        <a href="#übungen" onclick="removemenu()">Übungen</a>
+        <a href="#grammatik" onclick="removemenu()">Grammatik</a>
+        <a href="#fakten" onclick="removemenu()" >Über Paris</a>
+        <a onclick="removemenu()"> Schließen </a>
+     </div>
+    
+        </div>
+        </div>
+
+
+    <img class="top-img" src="/img/französischbilder (8).jpg">
+    <div class="main" id="main">
+        <div class="übungscontainer" id="grammatik">
+            <span class="title">Französische Grammatik</span>
+            <div class="row">
+            <img class="button button-left"id="button-1" onclick="swap1() ,opacity(1)" src="/img/button.svg">
+           
+            <div class="content-display" id="content-grammtik">
+               
+            <div class="mini-row">
+                <span>present</span>
+           <a href="/grammatik/present.html"> <img class="cast übungscontainer-img" src="/img/grammatik2.jpg"> </a>
+            </div>
+            <div class="mini-row">
+                <span>passé composé</span>
+           <a href="/grammatik/passecompose.html"><img class="cast übungscontainer-img" src="/img/französischbilder (1).jpg"></a>
+            </div>
+            <div class="mini-row">
+                <span>imparfait</span>
+           <a href="/grammatik/imparfait.html"> <img class="cast übungscontainer-img"  src="/img/grammatik8.jpg"> </a>
+            </div>
+               
+            <div class="mini-row">
+                <span>plus-que-parfait</span>
+          <a href="/grammatik/plusque-parfait.html">  <img class="cast übungscontainer-img" src="/img/grammatik3.jpg"> </a>
+            </div>
+            <div class="mini-row">
+                <span>futur composé</span>
+           <a href="/grammatik/future-compose.html"> <img class="cast übungscontainer-img" src="/img/grammatik5.jpg"> </a>
+            </div>
+            <div class="mini-row">
+                <span>futur simple</span>
+           <a href="/grammatik/future-simple.html"> <img class="cast übungscontainer-img" src="/img/grammatik1.jpg"></a>
+            </div>
+
+            </div>
+
+            <img class="button button-right"id="button-2" onclick="swap1() ,opacity(2)" src="/img/button.svg">
+                </div>
+        </div>
+    </div>
+    
+    
+    <img class="middle-img"  src="img/französischbilder (9).jpg">
+    
+    <div class="grammatikconatiner" id="übungen">
+        <span class="title">Übungen zur Grammatik</span>
+        <div class="row">
+            <img class="button button-left" id="button-3" onclick="swap() ,opacity(3)"src="img/button.svg">
+           
+            <div class="content-display" id="content-übungen">
+              
+            <div class="mini-row">
+                <span>present</span>
+           <a href="/übungen/übungen-present.html"> <img class="cast grammatikconatiner-img" src="/img/grammatik2.jpg"> </a>
+            </div>
+            <div class="mini-row">
+                <span>passé composé</span>
+           <a href="/übungen/übungen-passecompose.html"><img class="cast grammatikconatiner-img"  src="/img/französischbilder (1).jpg"></a>
+            </div>
+            <div class="mini-row">
+                <span>imparfait</span>
+           <a href="/übungen/übungen-imparfait.html"> <img  class="cast grammatikconatiner-img"src="/img/grammatik8.jpg"> </a>
+            </div>
+             
+            <div class="mini-row">
+                <span>plus-que-parfait</span>
+           <a href="/übungen/übungen-plusqueparfait.html"> <img class="cast grammatikconatiner-img" src="/img/grammatik3.jpg"> </a>
+            </div>
+            <div class="mini-row">
+                <span>futur composé</span>
+           <a href="/übungen/übungen-futurecompose.html"> <img class="cast grammatikconatiner-img" src="/img/grammatik5.jpg"> </a>
+            </div>
+            <div class="mini-row">
+                <span>futur simple</span>
+           <a href="/übungen/übungen-futuresimple.html"> <img class="cast grammatikconatiner-img"src="/img/grammatik1.jpg"></a>
+            </div>
+
+
+
+            </div>
+
+            <img class="button  button-right" id="button-4" onclick="swap() ,opacity(4)" src="/img/button.svg">
+                </div>
+    </div>
+
+    </div>
+
+    <img class="middle-img" src="img/france4.jpeg" >
+
+
+        <div class="faktencontainer" id="fakten">
+
+
+      
+       <div class="title2 mini-container">
+        <span>Fakten über Paris</span>
+       <a href="paris-fakten.html" ><img class="cast" src="img/france8.jpeg"> </a>
+       </div>
+       
+
+       
+       <div class="title2 mini-container">
+        <span> Wichtige Verben</span>
+        <a href="5-fakten.html"> <img class="cast" src="/img/französischbilder (3).jpg"></a>
+       </div>
+
+       </div>
+
+       
+
+<div class="footer">
+<div class="footer-div-one">
+    <a class="footer-div-one-a" href="#">Impressum</a>
+    <a class="footer-div-one-a" href="datenschutz.html">Datenschutz</a>
+</div>
+<div class="footer-div-two">
+   <span>Created by Rahim</span>
+   <span>Information provided by Shogufa</span>
+</div>
+</div>
+
+</body>
+</html>

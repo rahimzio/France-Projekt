@@ -1,0 +1,281 @@
+
+@media(max-width:450px){
+
+    .footer-div-two{
+        margin-left: 22% !important;
+    }
+    
+}
+
+@media(max-width:500px){
+    .button{
+    height: 314px !important;
+    }
+
+    .row{
+        margin-bottom: 30px;
+    }
+    
+    .grammatikconatiner{
+        padding-bottom: 0 !important;
+    }
+
+
+    .übungscontainer{
+        padding-bottom: 0 !important;
+    }
+
+    .übungscontainer-img-js{
+        height: 62% !important;
+        width: 34% !important;
+    }
+    .overlay{
+        display: grid !important;
+    }
+}
+
+@media(max-width:700px){
+    .header span{
+        font-size: 116% !important;
+        font-weight: 800;
+        margin-left: 28% !important;
+        }
+
+        .header{
+            position: sticky !important;
+        }
+
+        .content-display{
+            flex-direction: column;
+        }
+
+    .faktencontainer{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        flex-direction: column !important;
+    }
+
+    .smallcart{ 
+    width: 78%;
+    }
+
+
+    .mini-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10 0 !important;
+    width: 80%;
+    }
+
+    .faktencontainer img  {
+        width: 100% !important;
+    }
+
+    .faktencontainer{
+        column-gap: 80px !important;
+    }
+
+    
+  
+
+}
+
+@media(max-width:700px){
+    .grammatikconatiner-img-js {
+        height: 62% !important;
+        width: 34% !important;
+    }
+}
+
+@media(min-width:1000px){
+.mini-row-js{
+    display: none;
+}
+
+}
+
+@media(max-width:800px){
+    
+    .other-grammatik-row{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+
+        
+    .other-grammatik{
+        flex-direction: column !important;
+    }
+     
+    .other-grammatik span {
+        margin-bottom: 0 !important;
+    }
+    
+    .other-grammatik-row{
+        margin-bottom: 40px !important;
+    }
+}
+
+
+@media(max-width: 1000px){
+/*header*/
+    .header{
+        display: flex;
+        flex-direction: row;
+        background-color:rgb(5, 5, 23) ;
+        height: 60px;
+       
+    }
+
+
+    .top-img{
+        height: 35vh !important;
+    }
+
+    .mini-row{
+        display: none;
+    }
+
+    
+    
+    .flagge{
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .header span{
+        font-size: 30px;
+        font-weight: 800;
+        margin-left: 31%;
+        margin-right: 60px;
+        padding-bottom: 14px;
+    }
+
+
+    
+    .header a{
+        color: #DEB992;
+        font-size: clamp(16px,20px,24px);
+    }
+    
+    .links{
+        display: none;
+    }
+
+
+    .button-right{
+        right: 0px ;
+    
+    }
+
+    .button-left{
+        left: 0px;
+        
+    }
+
+    .button{
+        margin: 1px;
+        width: 80px;
+        top: 120px;
+    }
+
+
+    .faktencontainer img  {
+        margin: 0 !important;
+    }
+
+    .other-grammatik img{
+        height: 100px !important;
+        width: 140px !important;
+    }
+
+
+
+    .übungscontainer .infoconatiner {
+     flex-direction: column !important;
+     padding-top: 110px;
+     padding-bottom: 110px;
+     
+    }
+
+    
+.top-img{
+    width: 1198px;
+}
+.card-body-mini{
+    height: 248px;
+}
+
+.card-img-top{
+    height: 145px;
+}
+
+.thema{
+    padding: 0 !important;
+    height: 23px !important;
+}
+
+.card-overlay{
+    margin-top: 46px;
+    margin-bottom: 45px;
+}
+
+
+
+
+}
+
+
+@media (min-width: 768px){
+.container {
+    max-width: 500px !important; }
+}
+
+
+@media(max-width:1100px){
+    .faktencontainer img  {
+        width: 300px ;
+
+    }
+}
+
+
+@media(max-width:1400px){
+
+    .faktencontainer img  {
+        width: 400px ;
+    }
+}
+
+@media(min-width: 1000px){
+    
+    .card-overlay{
+        margin-top: 100px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .container{
+        /*padding-top: 40px !important;*/
+        padding-bottom: 100px !important;
+        min-height: 95vh;
+    }
+    .menu-button-ersatz{
+        display: none;
+    }
+    .menu-button{
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+    .hidden-rows{
+        display: none;
+    }
+}
+
+@media(min-width:1500px){
+    .links{
+        margin-left: 73%;
+    }
+}

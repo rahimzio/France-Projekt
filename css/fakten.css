@@ -1,0 +1,104 @@
+/* Fakten über paris */
+
+/* 5 Fakten*/
+.font-color{
+    color:#DEB992 ;
+    background-color: #18122B;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.fakebody{
+    font-size: clamp(12px, 18px,24px);
+    background-color:#1C1130;
+    color: aliceblue;
+    padding-top: 50px;
+}
+
+.shogun{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #593260;
+    margin: 18px 23%;
+    padding: 2% 4%;
+    border-radius: 45px;
+}
+
+.shogun span{
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.fakebody h2{
+    background: #C84EC8;
+    border-radius: 45px;
+    width: 324px;
+    padding: 9px;
+    display: flex;
+    margin: 30px auto;
+}
+
+.fakebody p{
+    background: #581845;
+    border-radius: 71px;
+    margin: 24px;
+    padding: 17px;
+}
+
+section{
+    margin-bottom: -24px;
+    padding-bottom: 27px;
+    padding-top:  20px;
+    text-align: center;
+}
+
+.style{
+    background: rgb(9, 9, 55);
+    border-radius: 45px;
+    margin: 12% 14%;
+    border: solid cornflowerblue;
+}
+
+.all-faits{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.all-faits h1{
+    margin: 18px auto;
+    color: #ffe26a;
+    background: #16123f;
+    padding: 20px;
+    border-radius: 45px;
+}
+
+.all-faits b{
+  color: #ffe26a;
+}
+
+.faits{   
+    color: #16123f;
+    background-color: #abd699;
+    margin: 30px auto;
+    border-radius: 19px;
+    padding: 17px;
+    margin-bottom: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:550px){
+    .all-faits h1 {
+            padding: 0 63px !important;
+    }
+
+    .fakebody h2{
+        width: 80%;
+    }
+}

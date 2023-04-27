@@ -1,0 +1,154 @@
+.mini-header{
+    text-align: center;
+    background-color: #379683;
+    font-size: 22px;
+  /* background-color: #885E54;*/
+  /*  color: #05386b;*/
+ /* background-color:#123C69 ;*/
+  color: whitesmoke;
+    padding: 20px;
+}
+
+.overlay{
+    display: flex;
+    justify-content: space-evenly;
+    /*column-gap: 130px;*/
+    background-color:#5cdb95;
+    /*background-color: #B77A6C;*/
+    /*background-color: #BAB2B5;*/
+    color: #edf5e1;
+}*/
+
+.grammatik-verb-container{
+    column-gap: 90px;
+    margin-left: 50px;
+}
+
+
+
+
+
+.beispiel{
+    padding-top: 10px;
+    background-color:#8ee4af;
+    font-size: 18px;
+    text-align: center;
+    /*background-color: #885E54;*/
+    /*background-color: #123C69;*/
+    color: #edf5e1;
+}
+
+.beispielsätze-sub{
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.beispiel h2{
+    padding-bottom: 10px;
+}
+
+.grammatik-übung{
+    display: flex;
+    flex-direction: column;
+  background-color:#5cdb95;
+  font-size: 18px;
+  /*background-color: #B77A6C;*/
+  /*background-color:#AC3B61 ;*/
+    color: #edf5e1;
+    padding-top: 25px;
+}
+
+.grammatik-übung-div1{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.refer span{
+text-align: center;
+}
+
+.übungs-img{
+    border: solid wheat;
+    border-radius: 20px;
+    height: 150px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.refer{
+    display: flex;
+    flex-direction: column;
+   background-color:#379683;
+   font-size: 16px;
+   /*background-color: black;*/
+  /* background-color : #AC3B61;*/
+    color: #edf5e1;
+}
+
+.other-grammatik{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.other-grammatik span{
+    font-size: 18px;
+    border: solid;
+    border-radius: 70px;
+    background-color: lightgreen;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.other-grammatik img{
+        border: solid 4px wheat;
+        border-radius: 20px;
+        height: 150px;
+        width: 200px;
+       /* margin-left: 35px;
+        margin-right: 35px;*/
+        margin-top: 14px;
+}
+
+.other-grammatik img:active{
+    transform: translateY(-3px);
+    box-shadow: 010px 20px rgba(0, 0, 0, 0.2);
+}
+
+.other-grammatik img:hover{
+    transform: translateY();
+    box-shadow: 010px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.verbs-sub span,h2{
+    text-align: center;
+}
+
+.example{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.extra-border{
+    border-radius: 28px;
+    border: solid 2px;
+    border-color: aquamarine;
+}
+
+b{color: blue;}
+
+colors{
+   color: #05386b;
+   color: #379683;
+   color: #5cdb95;
+   color: #8ee4af;
+   color: #edf5e1;
+}

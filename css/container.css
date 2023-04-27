@@ -1,0 +1,247 @@
+
+.button, .button-left{
+    margin: 20px;
+    width: 100px;
+    height: 115px;
+}
+
+
+.übungscontainer{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(5, 5, 23) ;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.title{
+    text-align: center;
+    color: #DEB992;
+    position: absolute;
+    top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.title2{
+    text-align: center;
+    color: #DEB992;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.title3{
+    text-align: center;
+    color: #DEB992;
+    position: absolute;
+    top: 20px;
+    left: -17%;
+    right: 40%;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.übungscontainer-img{
+    border: solid wheat;
+    border-radius: 20px;
+    height: 150px;
+    width: 75%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.subcontainer{
+    border: solid white 5px;
+    border-radius: 45px;
+    height: 130px;
+    width: 200px;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: transform 225ms ease-in-out ;
+}
+
+
+.subcontainer img{
+    height: 15vh;
+}
+
+.button{
+    width: 86px;
+}
+
+.button-right{
+    position: absolute;
+    right: -14px;
+}
+
+.button-left{
+    transform: rotate(180deg);
+    position: absolute;
+    left: -14px;
+}
+
+
+.grammatikconatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(5, 5, 23) ;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.grammatikconatiner-img{
+    border: solid wheat;
+    border-radius: 20px;
+    height: 150px;
+    width: 75%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.faktencontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(5, 5, 23) ;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    position: relative; 
+}
+
+
+.cast:active{
+    transform: translateY(-3px);
+    box-shadow: 010px 20px rgba(250, 246, 246, 0.2);
+}
+
+.cast:hover{
+    transform: translateY();
+    box-shadow: 010px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+.faktencontainer img{
+    border: solid wheat;
+    border-radius: 20px;
+    height: 249px;
+    width: 94%;
+}
+
+.sub-title{
+    color: #DEB992;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 100px;
+    column-gap: 140px;
+    margin-bottom: 30px;
+}
+
+.shift{
+    padding-left: 12px;
+}
+
+.example{
+    flex-direction: column;
+}
+
+.row span{
+    display: flex;
+    justify-content: center;
+    color: #DEB992;
+    margin-bottom: 10px;
+    font-size: clamp(12px,18px,22px);
+    font-weight: 800;
+}
+
+.hidden-rows{
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-row-js {
+    text-align: center;
+}
+
+.content-display{
+    display: flex;
+    justify-content: center;
+}
+
+.grammatikconatiner-img-js {
+    border: solid wheat;
+    border-radius: 20px;
+    height: 80%;
+    width: 75%;
+    
+}
+
+.übungscontainer-img-js{
+    border: solid wheat;
+    border-radius: 20px;
+    height: 80%;
+    width: 75%;
+  
+}
+
+
+.übungscontainer-img{
+    border: solid wheat;
+    border-radius: 20px;
+    height: 88%;
+    width: 75%;
+   /* margin-left: 25px;
+    margin-right: 25px;*/
+}
+
+  .click{
+        opacity: 0.4;
+    }
+    
+
+
+/*
+.transform-left{
+    transform: translateX(150%);
+}
+
+.transform-right{
+    transform: translateX(-150%);
+}
+
+
+.transform-first{
+    transform: translateX(300%);
+}
+
+.transform-seconde{
+    transform: translateX(600%);
+}
+
+.transform-third{
+    transform: translateX(900%);
+}
+
+.transform-left{
+    transform: translateX(150%);
+}
+
+.transform-right{
+    transform: translateX(-150%);
+}

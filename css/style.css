@@ -1,0 +1,102 @@
+@import url(fonts.css);
+@import url(header.css);
+@import url(responsive.css);
+@import url(container.css);
+@import url(grammatik.css);
+@import url(fakten.css);
+@import url(quiz.css);
+@import url(all-container.css);
+@import url(footer.css);
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden !important;
+}
+
+em{
+    color: red;
+}
+
+.none{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+
+.fill{
+    height: 200px;
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.verbs-sub{
+    display: flex;
+    flex-direction: column;
+}
+
+
+video{
+object-fit: contain;
+height: 200px;
+width: 100%;
+}
+
+.main{
+    background-color: white;
+}
+
+.middle-img{
+    height: 60vh;
+    width: 100%;
+    object-fit: unset;
+    margin-bottom: -5px;
+}
+
+.top-img{
+    height: 60vh;
+    width: 100%;
+    object-fit: unset;
+    margin-bottom: -5px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.mini-body{
+    text-align: center;
+}
+.y-hidden{
+    overflow-y:hidden ;
+}
+
+
+/*shofuas scheisse*/
+/*
+.shogun{
+    color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+
+.shogun-overlay{
+    display: flex;
+    flex-direction: row;
+}*/

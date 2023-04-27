@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/quiz-2.js"></script>
+    <script src="/js/java.js"></script>
+   <!--bootstaps-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <title>quizz</title>
+</head>
+<body onload="init(1)" style=" background: bisque;">
+<div class="content">
+
+   
+  <div class="header">
+
+    <div>
+        <img class="flagge" src="/img/flagge.jpeg">
+    </div>
+
+    <span class="ffd">Französisch für dummis</span>
+
+    <div class="links">
+        <a href="/index.html">Homepage|</a>
+        <a href="/index.html#übungen">Übungen|</a>
+        <a href="/index.html#grammatik">grammatik|</a>
+        <a href="/index.html#fakten">über paris</a>
+    </div>
+    <div>
+        <div class="menu-button-ersatz" style="opacity: 0; z-index: 2;" onclick="swipe() ,opacity()"></div>
+        <div class="menu-button-ersatz">
+            <div class="streifen" style="top: 17px;"></div>
+            <div class="streifen" style="top: 25px;"></div>
+            <div class="streifen" style="top: 36px;"></div>
+        </div>
+        <img class="menu-button" src="/icons/menu-offnen.png">
+
+    <div class="button-div">
+        <img class="menu-button" onclick="swipe() ,opacity()" src="/icons/menu-offnen.png">
+        <div class="menu-button-ersatz" onclick="swipe() ,opacity()">
+            <div class="streifen"></div>
+            <div class="streifen"></div>
+            <div class="streifen"></div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-links none" id="menu-links">
+    <a href="/index.html" onclick="removemenu()">Homepage</a>
+    <a href="/index.html#übungen" onclick="removemenu()">Übungen</a>
+    <a href="/index.html#grammatik" onclick="removemenu()">Grammatik</a>
+    <a href="/index.html#fakten" onclick="removemenu()" >Über Paris</a>
+    <a onclick="removemenu()"> Schließen </a>
+ </div>
+
+    </div>
+    </div>
+
+
+      <div class="container">
+      <div class="card card-overlay" style="width: 18rem;">
+        <div>
+          <h2 id="thema" style="font-family:'Circular-Loom'; padding-top: 8px;">Imparfait</h2>
+      </div>
+        <img src="/img/französischbilder (5).jpg" class="card-img-top" alt="...">
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" id="progress-bar">1%</div>
+        </div>
+        
+         
+            <div id="question-text-div" >
+          <h5 class="card-title" id="question-text"></h5>
+        </div>
+
+
+
+          <div id="card-head" class="card-head" style="display: none;">
+          <h2 class="alingcenter finir">Tu as finir!</h2>
+          <div id="endsatz" class="endsatz"></div>
+          <div class="button-row">
+            <button class="bnt bnt-primary" onclick="restart()">Erneut versuchen</button>
+            <a href="/grammatik/present.html"  class="bnt bnt-primary" ><button > Grammatik lernen</button></a>
+          </div>
+          </div>
+
+
+
+      <div id="card-body">
+
+        <div class="card mb-2 quiz-answer" onclick="answer('answer-1')">
+          <div class="card-body" id="answer-1">
+      
+          </div>
+        </div>
+
+        <div class="card mb-2 quiz-answer" onclick="answer('answer-2')">
+          <div class="card-body" id="answer-2">
+           
+          </div>
+        </div>
+
+        <div class="card mb-2 quiz-answer" onclick="answer('answer-3')">
+          <div class="card-body" id="answer-3">
+           
+          </div>
+        </div>
+
+        <div class="card mb-2 quiz-answer" onclick="answer('answer-4')">
+          <div class="card-body" id="answer-4">
+           
+          </div>
+        </div>
+
+      </div>
+
+        <div class="question-footer">
+          <span>
+          <b id="currentnum">1</b>von <b id="all-questions">5</b>fragen 
+          </span>
+          <button class="bnt bnt-primary" onclick="nextquestion()" id="next-button" disabled>nächste fragen</button>
+        </div>
+
+
+      </div>
+      </div>
+      
+</div>
+
+
+
+<div class="footer">
+  <div class="footer-div-one">
+      <a class="footer-div-one-a" href="#">Impressum</a>
+      <a class="footer-div-one-a" href="datenschutz.html">Datenschutz</a>
+  </div>
+  <div class="footer-div-two">
+     <span>Created by Rahim</span>
+     <span>Information provided by Shogufa</span>
+  </div>
+  </div>
+  
+  </div>
+</body>
+</html>
